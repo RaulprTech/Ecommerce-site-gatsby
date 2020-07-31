@@ -20,7 +20,7 @@ export default (props) => {
                     {
                         navItems.map( (item, index) => (
                             <li key={index}> 
-                                <Link className="hover: bg-blue-700 px-6 inline-block py-4" to={item.href}>
+                                <Link className="hover:bg-blue-700 px-6 inline-block py-4" to={item.href}>
                                     {item.caption}
                                 </Link>
                             </li>
